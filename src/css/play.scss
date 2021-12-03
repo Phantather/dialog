@@ -1,0 +1,27 @@
+.play {
+  padding: 45px 0 422px;
+  background: url("../images/Rectangle.png") top left/ 100% 100% no-repeat;
+  &__block {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__title {
+    margin-bottom: 38px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+
+  }
+  &__descr {
+    margin-bottom: 35px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+  }
+}

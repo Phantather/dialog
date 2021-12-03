@@ -1,0 +1,45 @@
+.sale{
+  padding: 172px 0 113px;
+  background-color: #CED3CA;
+  height: 660px;
+  position: relative;
+  &__content{
+    position: absolute;
+    background-color: #F7F7F7;
+    margin:127px 140px;
+    height: 406px;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  &__title{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1A1A1A;
+    margin: 90px 0 33px 93px ;
+  }
+  &__descr{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1A1A1A;
+    margin-left: 93px;
+    &::before{
+      position: absolute;
+      content: '';
+      width: 100px;
+      border-bottom: 1px solid #1A1A1A;
+      bottom: 123px;
+    }
+  }
+  &__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

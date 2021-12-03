@@ -1,0 +1,50 @@
+@import "../libes/fontello/css/fontello.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.shipping{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  background: #CED3CA;
+  padding: 13px 0 12px;
+  &__button{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    color: #F7F7F7;
+    background: #1A1A1A;
+    border: 1px solid #1A1A1A;
+    margin-left: 16px;
+    padding: 1px 13px 1px;
+  }
+}
+
+ a{
+  text-decoration: none;
+ }
+
+
+@import "header";
+@import "object";
+@import "arrivals";
+@import "sale";
+@import "shop";
+@import "things";
+@import "gather";

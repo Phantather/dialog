@@ -1,0 +1,23 @@
+.description{
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #23283B;
+  text-align: center;
+  &-before{
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -12px;
+      width: 40px;
+      height: 1px;
+      background: #E6514A;
+      transform: translate(-100%,-50%);
+    }
+  }
+
+}

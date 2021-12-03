@@ -1,0 +1,72 @@
+.header {
+  padding: 16px 0;
+
+  &__top {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DEDEFF50;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__icons{
+    display: flex;
+    column-gap: 21px;
+  }
+  &__social{
+    color: black;
+    &:hover{
+      color: #E6514A;
+    }
+  }
+  &__numbers{
+    display: flex;
+    column-gap: 28px;
+  }
+ &__numbers-icon{
+   color:  #E6514A;
+   &_green{
+     color: #4CAF50;
+   }
+ }
+  &__numbers-tel{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #23283B;
+  }
+
+  &__bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__navigation{
+    display: flex;
+    column-gap: 102px;
+    align-items: center;
+  }
+  &__menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    column-gap: 32px;
+  }
+  &__link{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #23283B;
+    &:hover{
+      color:#3035C4;
+    }
+  }
+  &__button-phone{
+      transform: rotate(-45deg);
+  }
+
+}

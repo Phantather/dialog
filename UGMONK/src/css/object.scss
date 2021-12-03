@@ -1,0 +1,42 @@
+.object{
+  padding: 43px 0 40px;
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background: url("../images/object/object.bg.png") center/cover no-repeat;
+    z-index: -1;
+  }
+  &__row{
+    display: flex;
+    margin-left: 140px;
+  }
+  &__title{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 550px;
+    margin-bottom: 5px;
+  }
+  &__description{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    &::before{
+      position: absolute;
+      content: '';
+      width: 100px;
+      border-bottom: 1px solid #FFFFFF ;
+      bottom: 65px;
+    }
+  }
+}

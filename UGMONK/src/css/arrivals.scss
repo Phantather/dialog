@@ -1,0 +1,47 @@
+.arrivals{
+  padding: 40px 0 172px;
+
+  &__list{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    margin-bottom: 55px;
+  }
+  &__item{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    color: #B3B3B3;
+    list-style-type: none;
+    transition: 3s;
+    position: relative;
+    cursor: pointer;
+    &::before{
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 3px;
+      background: #1A1A1A;
+      bottom: -20px;
+      left: 0;
+      transition: 2s;
+    }
+    &_active{
+      color: #1A1A1A;
+      transition: 3s;
+      &::before{
+        width: 100%;
+        transition: 2s;
+      }
+    }
+  }
+  &__tabs-content{
+    display: none;
+    &_active{
+      display: block;
+    }
+  }
+
+}

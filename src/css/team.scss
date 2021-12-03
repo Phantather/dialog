@@ -1,0 +1,73 @@
+.team{
+  padding: 100px 0 60px;
+  &__title{
+    margin-bottom: 52px;
+  }
+  &__card{
+    text-align: center;
+    &-img{
+      width: 100%;
+    }
+    &-title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 130%;
+      color: #3035C4;
+      margin: 43px 0 32px;
+    }
+    &-descr{
+      font-family: Lato,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: #23283B;
+    }
+  }
+  &__carousel{
+    position: relative;
+  }
+  &__arrow{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-color: white!important;
+    border-radius: 50%!important;
+    box-shadow: 0px 10px 40px rgba(0, 11, 68, 0.22);
+    top: 50%;
+    transform: translateY(-50%);
+    color: #E6514A!important;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    transition: 0.5s;
+    &:hover{
+      transition: 0.5s;
+      background: #3035C4!important;
+      color: white!important;
+    }
+    &_prev{
+      left: -44px;
+      transform: translateX(-100%);
+    }
+    &_next{
+      right: -44px;
+      transform: translateX(100%);
+    }
+  }
+  &__dot span{
+    background: #DEDEFF!important;
+         transition: 0.5s;
+    &:hover{
+           transition: 0.5s;
+      background: #3035C4!important;
+    }
+  }
+  &__dot.active span{
+    background: #E6514A!important;
+  }
+}

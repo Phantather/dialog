@@ -1,0 +1,105 @@
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  background: #23283B70;
+  .popup{
+    background-color: white;
+    box-shadow: 0 10px 40px rgba(73, 95, 211, 0.22);
+    border-radius: 20px;
+    display: flex;
+    column-gap: 52px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 770px;
+
+    &__close{
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      &::before{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background: #23283B;
+        top: 0;
+        left: 0;
+        position: absolute;
+        transform: rotate(-45deg);
+      }
+      &::after{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background: #23283B;
+        top: 0;
+        left: 0;
+        position: absolute;
+        transform: rotate(45deg);
+      }
+    }
+
+    &__content{
+      padding: 70px 52px 52px 0;
+    }
+    &__title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 130%;
+      color: #3035C4;
+      margin-bottom: 12px;
+    }
+    &__subtitle{
+      font-family: Lato,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 150%;
+      color: #23283B;
+      margin-bottom: 36px;
+    }
+    &__form-block{
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+      margin-bottom: 16px;
+      &:nth-child(3){
+        margin-bottom: 32px;
+      }
+    }
+      &__form-label{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #23283B;
+    }
+    &__form-input{
+      background: #FFFFFF;
+      border: 1px solid #23283B10;
+      border-radius: 40px;
+      height: 52px;
+      width: 100%;
+      padding: 20px;
+      &::placeholder{
+        font-family: Lato,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #23283B50;
+      }
+    }
+  }
+}

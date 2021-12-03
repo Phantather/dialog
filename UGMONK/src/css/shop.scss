@@ -1,0 +1,36 @@
+.shop {
+  padding: 113px 0 48px;
+
+  &__title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #1A1A1A;
+    margin-bottom: 92px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+  }
+
+  &__description {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1A1A1A;
+    margin-top: 6px;
+    &::before{
+      position: absolute;
+      content: '';
+      width: 97px;
+      border-bottom: 1px solid #1A1A1A;
+    }
+    }
+  }

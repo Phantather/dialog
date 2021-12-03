@@ -1,0 +1,15 @@
+.shop {
+  padding: 113px 0 48px;
+}
+.shop__title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #1A1A1A;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=shop.css.map */

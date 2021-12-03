@@ -1,0 +1,22 @@
+.things{
+  padding: 48px 0 147px;
+  &__content{
+    margin-left: 100px;
+  }
+  &__description{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A1A1A;
+    margin-top: 6px;
+    &::before{
+      position: absolute;
+      content: '';
+      width: 112px;
+      border-bottom: 1px solid #1A1A1A;
+
+    }
+  }
+}

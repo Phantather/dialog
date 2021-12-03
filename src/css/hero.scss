@@ -1,0 +1,25 @@
+.hero{
+  padding: 120px 0 143px;
+  background: url("../images/hero/bg.png") top right/40% 100% no-repeat;
+  &__descr{
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3035C4;
+    margin-bottom: 28px;
+  }
+  &__title{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 130%;
+    color: #23283B;
+    margin-bottom: 52px;
+    &-red{
+      color: #E6514A;
+    }
+  }
+}
